@@ -1,6 +1,6 @@
-document.getElementById("myBtn").addEventListener("click", displayDate);
+document.getElementById("myBtn").addEventListener("click", displayPass);
 
-        function displayDate() {
+        function displayPass() {
             var upperStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             var lowerStr = "abcdefghijklmnopqrstuvwxyz";
             var numericStr = "0123456789";
