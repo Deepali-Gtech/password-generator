@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+main {
+    text-align: center;
+    background-color:white;
+    padding: 1% 1%;
+    width: 30%;
+    margin: auto;
+}
+body {
+    background-color: rgb(244, 245, 245);
+}
+
+textarea {
+    border:dashed 2px rgb(241, 230, 230);
+    border-radius: 5px;
+    text-align: center;
+}
+hr {
+    
+    background-color: rgb(241, 230, 230); height: 2px; border: 0;
+}
+
+button {
+    background-color: rgb(184, 60, 60);
+    font-size: 16px;
+    border-radius: 16px;
+    padding: 5px 5px;
+    color: white;
+    border: none;
+}
