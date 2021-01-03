@@ -6,4 +6,4 @@ Application to generate a random password based on criteria selected.
 Link to the deployed website:
 
 Below is the screen short for the website
-![Website](./Images/password_generator.png)
+![Website](./images/password_generator.png)
