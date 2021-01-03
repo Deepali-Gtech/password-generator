@@ -20,6 +20,9 @@ textarea {
     border:dashed 2px rgb(241, 230, 230);
     border-radius: 5px;
     text-align: center;
+    resize: both;
+    height: 4em;
+    width: 25em;
 }
 hr {
     
@@ -34,3 +37,14 @@ button {
     color: white;
     border: none;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    textarea {
+        height: 4em;
+        width: 10em;
+    }
+  }
