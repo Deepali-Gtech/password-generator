@@ -20,10 +20,10 @@ textarea {
     border:dashed 2px rgb(241, 230, 230);
     border-radius: 5px;
     text-align: center;
-    resize: both;
     height: 4em;
     width: 25em;
 }
+
 hr {
     
     background-color: rgb(241, 230, 230); height: 2px; border: 0;
@@ -38,13 +38,26 @@ button {
     border: none;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
 
+
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
     textarea {
         height: 4em;
-        width: 10em;
+        width: 20em;
     }
-  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    textarea {
+        height: 4em;
+        width: 12em;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    textarea {
+        height: 4em;
+        width: 8em;
+    }
+}
+  
